@@ -10,8 +10,9 @@ class MyPyQT_Form(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
 
+
+
 if __name__ == '__main__':
-    
     app = QApplication(sys.argv)
     my_pyqt_form = MyPyQT_Form()
     my_pyqt_form.show()

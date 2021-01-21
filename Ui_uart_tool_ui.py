@@ -8,7 +8,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+from my_combobox import My_ComBoBox
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -28,7 +28,7 @@ class Ui_MainWindow(object):
         self.rec_hex_radio_button = QtWidgets.QRadioButton(self.groupBox)
         self.rec_hex_radio_button.setGeometry(QtCore.QRect(70, 200, 41, 16))
         self.rec_hex_radio_button.setObjectName("rec_hex_radio_button")
-        self.com_combo_box = QtWidgets.QComboBox(self.groupBox)
+        self.com_combo_box = My_ComBoBox(self.groupBox)
         self.com_combo_box.setGeometry(QtCore.QRect(10, 50, 141, 22))
         self.com_combo_box.setObjectName("com_combo_box")
         self.stopbit_combo_box = QtWidgets.QComboBox(self.groupBox)
