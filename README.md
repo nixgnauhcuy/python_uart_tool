@@ -8,6 +8,8 @@
 
 **详细的项目内容可以移步到[我的博客](https://www.nixgnauhcuy.top)查看。🚀**
 
+**完整的串口工具，可以参考我的另一个仓库 [QtComMate](https://github.com/nixgnauhcuy/QtComMate)。**
+
 ## License
 
 [License](https://github.com/nixgnauhcuy/python_uart_tool/blob/main/LICENSE)
